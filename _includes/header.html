@@ -2,7 +2,7 @@
 <header>
   <div>
     <div class="float-left"><img src="{{site.logo}}" alt="Logo" height="30"></div>
-    <div class="menu float-left">
+    <div class="menu">
       <ul>
         {%- for path in page_paths -%}
           {%- assign my_page = site.pages | where: "path", path | first -%}
