@@ -1,9 +1,8 @@
 {%- assign page_paths = site.header_pages | default: default_paths -%}
 <header>
-  <div class="menu">
+  <div class="menu float-left">
     <br>
-    <div class='float-left'><img src="{{site.logo}}" alt="Logo" height="30"></div>
-    <div class='float-left'>
+    <img src="{{site.logo}}" alt="Logo" height="30">
     <ul>
       {%- for path in page_paths -%}
         {%- assign my_page = site.pages | where: "path", path | first -%}
@@ -12,6 +11,5 @@
         {%- endif -%}
       {%- endfor -%}
     </ul>
-    </div>
   </div>
 </header>
