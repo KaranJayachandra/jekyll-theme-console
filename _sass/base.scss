@@ -1,11 +1,6 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700');
 
-.logo {
-  float: left;
-  margin-top: 7px;
-}
-
 /**
  * Style variables
  */
@@ -136,3 +131,16 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
 .highlight .vg { color: var(--code-color-7); } /* Name.Variable.Global */
 .highlight .vi { color: var(--code-color-7); } /* Name.Variable.Instance */
 .highlight .il { color: var(--code-color-14); } /* Literal.Number.Integer.Long */
+
+/* Additions by MrKaranJ */
+
+/* Style for the logo */
+.logo {
+  float: left;
+  margin-top: 7px;
+}
+
+/* Style for adding images to the blog */
+.pic {
+  width: $container-width;  max-width: $container-max-width;  margin-right: auto;  margin-left: auto;
+}
