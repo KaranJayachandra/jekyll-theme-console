@@ -14,6 +14,7 @@ $container-max-width:  600px !default;
 /**
  * Global
  */
+img { margin: 0 auto;  padding: 0; }
 body { background-color: var(--background-color);  margin: 0 auto;  padding: 0;  font-family: $base-font-family;  font-size: $base-font-size;  color: var(--text-color);  text-align: left;  line-height: $base-line-height !important; }
 h1, h2, h3, h4, h5, h6 { font-size: $base-font-size;  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: var(--text-color); }
 p, ul, ol { margin: 0px;  color: var(--text-color); }
@@ -132,15 +133,9 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
 .highlight .vi { color: var(--code-color-7); } /* Name.Variable.Instance */
 .highlight .il { color: var(--code-color-14); } /* Literal.Number.Integer.Long */
 
-/* Additions by MrKaranJ */
-
+/* Addition by MrKaranJ */
 /* Style for the logo */
 .logo {
   float: left;
   margin-top: 7px;
-}
-
-/* Style for adding images to the blog */
-.pic {
-  width: $container-width;  max-width: $container-max-width;  margin-right: auto;  margin-left: auto;
 }
