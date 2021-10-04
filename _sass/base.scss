@@ -139,3 +139,16 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
   float: left;
   margin-top: 7px;
 }
+
+#navigation:after { /* Justify last line */
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+#navigation { /* Fix added space */
+    height: 1.15em;
+    line-height: 1.15;
+    margin:auto;
+    width:87%;
+    text-align:justify;
+}
